@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RHINO_LOCALIZATION Version="4.2.0">
+  <SETTINGS>
+    <OPTIONS AcceleratorStyle="RHINO3_COMMANDLINE_ACCELERATOR_STYLE" LanguageScript="RHINO3_LANGUAGE_SCRIPT" />
+  </SETTINGS>
+  <RESOURCE_FILE Filename="$/src4/RmaErrorReporting/RmaErrorReporting.rc">
+    <DIALOG English="About Error Reporting" Localized="O hlášení chyb" ID="IDD_ABOUTBOX" IDN="100">
+      <DEFPUSHBUTTON English="DIALOG::About Error Reporting::Close" Localized="DIALOG::O hlášení chyb::Zavřít" ID="IDOK" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::At a minimum, error reports contain information that helps us isolate what was happening when Rhino closed. This information is anonymous and does not contain any personally identifyable information." Localized="DIALOG::O hlášení chyb::Hlášení chyb obsahuje informace, které nám pomohou určit, co se dělo, když došlo k ukončení Rhina. Tyto informace jsou anonymní a neobsahují žádné informace, které by mohly vést k identifikaci osoby." ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Also, you can choose to send the Rhino model that you were working on when Rhino closed. This sometimes contains valuable information that helps us reproduce the problem." Localized="DIALOG::O hlášení chyb::Také můžete zvolit odeslání modelu, se kterým jste v Rhinu pracovali, když došlo k jeho ukončení. Model někdy obsahuje cenné informace, které nám pomohou problém reprodukovat." ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Optionally, you can provide us with your name, e-mail and a description of what you were doing when Rhino closed. This information will be treated as confidential." Localized="DIALOG::O hlášení chyb::Volitelně můžete zadat své jméno, e-mail a popis toho co jste dělali, když došlo k ukončení Rhina. S těmito informacemi bude nakládáno jako s důvěrnými." ID="IDC_STATIC" IDN="100" />
+    </DIALOG>
+    <DIALOG English="McNeel Error Reporting" Localized="McNeel hlášení chyb" ID="IDD_RMAERRORREPORTING_DIALOG" IDN="102">
+      <LTEXT English="DIALOG::McNeel Error Reporting::Please tell McNeel about this problem." Localized="DIALOG::McNeel hlášení chyb::Řekněte prosím McNeelovi o tomto problému." ID="IDC_TITLE_TEXT" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Name:" Localized="DIALOG::McNeel hlášení chyb::Jméno:" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::e-mail:" Localized="DIALOG::McNeel hlášení chyb::e-mail:" ID="IDC_STATIC" IDN="102" />
+      <CONTROL English="DIALOG::McNeel Error Reporting::Send Rhino 3DM file with error report" Localized="DIALOG::McNeel hlášení chyb::S tímto hlášením odeslat také soubor Rhino 3DM" ID="IDC_CHECK_INCLUDE_3DM" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::What were you doing when Rhino closed?" Localized="DIALOG::McNeel hlášení chyb::Co jste dělali když došlo k ukončení Rhina?" ID="IDC_STATIC" IDN="102" />
+      <DEFPUSHBUTTON English="DIALOG::McNeel Error Reporting::Send Error Report" Localized="DIALOG::McNeel hlášení chyb::Odeslat hlášení o chybách" ID="IDOK" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Don't Send" Localized="DIALOG::McNeel hlášení chyb::Neodesílat" ID="IDCANCEL" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Help" Localized="DIALOG::McNeel hlášení chyb::Nápověda" ID="IDC_BUTTON1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Rhino has encountered a problem and needs to close.\nWe are sorry for the inconvenience." Localized="DIALOG::McNeel hlášení chyb::V Rhinu se vyskytnul problém a bude ukončeno.\nOmlouváme se za možné problémy." ID="IDC_LINE_1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::We have created an error report that you can send to us. We will treat this report as confidential" Localized="DIALOG::McNeel hlášení chyb::Bylo vytvořeno hlášení, které nám můžete odeslat. Toto hlášení budeme považovat za důvěrné" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Our developers frequently need additional information to fix errors. Please provide your e-mail address so we can contact you. All information below is optional." Localized="DIALOG::McNeel hlášení chyb::Naši vývojáři často potřebují pro opravy chyb získat dodatečné informace. Poskytněte nám prosím svoji e-mailovou adresu, abychom vás mohli kontaktovat. Všechny informace níže jsou nepovinné." ID="IDC_STATIC" IDN="102" />
+    </DIALOG>
+    <STRINGTABLE>
+      <RHINOSTRING_STATUSBAR_MESSAGE English="&amp;About RmaErrorReporting..." Localized="&amp;O RmaHlášeníChyb..." ID="IDS_ABOUTBOX" />
+    </STRINGTABLE>
+  </RESOURCE_FILE>
+</RHINO_LOCALIZATION>

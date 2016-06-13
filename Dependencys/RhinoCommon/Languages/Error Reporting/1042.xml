@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RHINO_LOCALIZATION Version="4.2.0">
+  <SETTINGS>
+    <OPTIONS AcceleratorStyle="Parenthesis" LanguageScript="RHINO3_LANGUAGE_SCRIPT" />
+  </SETTINGS>
+  <RESOURCE_FILE Filename="$/src4/RmaErrorReporting/RmaErrorReporting.rc">
+    <DIALOG English="About Error Reporting" Localized="오류 보고 정보" ID="IDD_ABOUTBOX" IDN="100">
+      <DEFPUSHBUTTON English="DIALOG::About Error Reporting::Close" Localized="DIALOG::About Error Reporting::닫기" ID="IDOK" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::At a minimum, error reports contain information that helps us isolate what was happening when Rhino closed. This information is anonymous and does not contain any personally identifyable information." Localized="DIALOG::About Error Reporting::최소한, 오류 보고에는 Rhino가 닫힐 때 있었던 일을 분리하는 데 도움이 되는 정보가 포함되어 있습니다. 이 정보는 익명이며, 개인 식별이 가능한 정보는 포함되지 않습니다." ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Also, you can choose to send the Rhino model that you were working on when Rhino closed. This sometimes contains valuable information that helps us reproduce the problem." Localized="DIALOG::About Error Reporting::또한, Rhino가 닫힐 때 작업 중이던 Rhino 모델을 보낼지를 선택할 수 있습니다. 해당 모델에는 문제를 재현하는 데 도움이 되는 중요한 정보가 포함되어 있기도 합니다." ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Optionally, you can provide us with your name, e-mail and a description of what you were doing when Rhino closed. This information will be treated as confidential." Localized="DIALOG::About Error Reporting::선택 사항으로, 사용자의 이름, 이메일, Rhino가 닫혔을 때의 상황에 대한 설명을 제공할 수 있습니다. 이 정보는 기밀로 처리됩니다." ID="IDC_STATIC" IDN="100" />
+    </DIALOG>
+    <DIALOG English="McNeel Error Reporting" Localized="McNeel 오류 보고" ID="IDD_RMAERRORREPORTING_DIALOG" IDN="102">
+      <LTEXT English="DIALOG::McNeel Error Reporting::Please tell McNeel about this problem." Localized="DIALOG::McNeel Error Reporting::이 문제를 McNeel에게 알려 주세요." ID="IDC_TITLE_TEXT" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Name:" Localized="DIALOG::McNeel Error Reporting::이름:" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::e-mail:" Localized="DIALOG::McNeel Error Reporting::이메일:" ID="IDC_STATIC" IDN="102" />
+      <CONTROL English="DIALOG::McNeel Error Reporting::Send Rhino 3DM file with error report" Localized="DIALOG::McNeel Error Reporting::Rhino 3DM 파일과 함께 오류 보고서 보내기" ID="IDC_CHECK_INCLUDE_3DM" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::What were you doing when Rhino closed?" Localized="DIALOG::McNeel Error Reporting::Rhino에 닫힐 때 무엇을 하고 있었습니까?" ID="IDC_STATIC" IDN="102" />
+      <DEFPUSHBUTTON English="DIALOG::McNeel Error Reporting::Send Error Report" Localized="DIALOG::McNeel Error Reporting::오류 보고서 보내기" ID="IDOK" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Don't Send" Localized="DIALOG::McNeel Error Reporting::보내지 않음" ID="IDCANCEL" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Help" Localized="DIALOG::McNeel Error Reporting::도움말" ID="IDC_BUTTON1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Rhino has encountered a problem and needs to close.\nWe are sorry for the inconvenience." Localized="DIALOG::McNeel Error Reporting::Rhino에 오류가 발생하여 종료해야 합니다.\n불편을 드려 죄송합니다." ID="IDC_LINE_1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::We have created an error report that you can send to us. We will treat this report as confidential" Localized="DIALOG::McNeel Error Reporting::저희에게 보내실 수 있는 오류 보고서가 만들어졌습니다. 이 보고서는 기밀로 처리됩니다." ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Our developers frequently need additional information to fix errors. Please provide your e-mail address so we can contact you. All information below is optional." Localized="DIALOG::McNeel Error Reporting::저희 개발자들이 오류를 수정하려면 추가적인 정보가 자주 필요합니다. 저희가 연락 드릴 수 있도록 이메일 주소를 알려 주세요. 다음의 모든 정보는 선택 사항입니다." ID="IDC_STATIC" IDN="102" />
+    </DIALOG>
+    <STRINGTABLE>
+      <RHINOSTRING_STATUSBAR_MESSAGE English="&amp;About RmaErrorReporting..." Localized="RMA 오류 보고 정보(&amp;A)..." ID="IDS_ABOUTBOX" />
+    </STRINGTABLE>
+  </RESOURCE_FILE>
+</RHINO_LOCALIZATION>

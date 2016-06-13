@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RHINO_LOCALIZATION Version="4.2.0">
+  <SETTINGS>
+    <OPTIONS AcceleratorStyle="RHINO3_COMMANDLINE_ACCELERATOR_STYLE" LanguageScript="RHINO3_LANGUAGE_SCRIPT" />
+  </SETTINGS>
+  <RESOURCE_FILE Filename="$/src4/RmaErrorReporting/RmaErrorReporting.rc">
+    <DIALOG English="About Error Reporting" Localized="Informazioni sulla segnalazione di errori" ID="IDD_ABOUTBOX" IDN="100">
+      <DEFPUSHBUTTON English="DIALOG::About Error Reporting::Close" Localized="DIALOG::Informazioni sulla segnalazione di errori::Chiudi" ID="IDOK" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::At a minimum, error reports contain information that helps us isolate what was happening when Rhino closed. This information is anonymous and does not contain any personally identifyable information." Localized="DIALOG::Informazioni sulla segnalazione di errori::Le segnalazioni di errori contengono informazioni che ci aiutano a capire cosa stava succedendo quando Rhino si è chiuso. Tali informazioni sono anonime e non contengono nessuna informazione personale identificabile." ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Also, you can choose to send the Rhino model that you were working on when Rhino closed. This sometimes contains valuable information that helps us reproduce the problem." Localized="DIALOG::Informazioni sulla segnalazione di errori::Se lo desiderate, potete anche spedirci il modello di Rhino su cui stavate lavorando quando Rhino si è chiuso. A volte i modelli contengono delle preziose informazioni per la riproduzione del problema." ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Optionally, you can provide us with your name, e-mail and a description of what you were doing when Rhino closed. This information will be treated as confidential." Localized="DIALOG::Informazioni sulla segnalazione di errori::Se lo desiderate, potete fornirci il vostro nome e cognome, l&apos;e-mail ed una descrizione delle operazioni che stavate eseguendo quando Rhino si è chiuso. Tratteremo queste informazioni con la massima confidenzialità." ID="IDC_STATIC" IDN="100" />
+    </DIALOG>
+    <DIALOG English="McNeel Error Reporting" Localized="Segnalazione di errori alla McNeel" ID="IDD_RMAERRORREPORTING_DIALOG" IDN="102">
+      <LTEXT English="DIALOG::McNeel Error Reporting::Please tell McNeel about this problem." Localized="DIALOG::Segnalazione di errori alla McNeel::Segnalate alla McNeel questo problema." ID="IDC_TITLE_TEXT" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Name:" Localized="DIALOG::Segnalazione di errori alla McNeel::Nome:" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::e-mail:" Localized="DIALOG::Segnalazione di errori alla McNeel::e-mail:" ID="IDC_STATIC" IDN="102" />
+      <CONTROL English="DIALOG::McNeel Error Reporting::Send Rhino 3DM file with error report" Localized="DIALOG::Segnalazione di errori alla McNeel::Spedisci file 3DM di Rhino con segnalazione errori" ID="IDC_CHECK_INCLUDE_3DM" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::What were you doing when Rhino closed?" Localized="DIALOG::Segnalazione di errori alla McNeel::Quali operazioni erano in corso quando Rhino si è chiuso?" ID="IDC_STATIC" IDN="102" />
+      <DEFPUSHBUTTON English="DIALOG::McNeel Error Reporting::Send Error Report" Localized="DIALOG::Segnalazione di errori alla McNeel::Invia segnalazione errori" ID="IDOK" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Don't Send" Localized="DIALOG::Segnalazione di errori alla McNeel::Non inviare" ID="IDCANCEL" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Help" Localized="DIALOG::Segnalazione di errori alla McNeel::Aiuti" ID="IDC_BUTTON1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Rhino has encountered a problem and needs to close.\nWe are sorry for the inconvenience." Localized="DIALOG::Segnalazione di errori alla McNeel::Rhino ha riscontrato un problema e verrà chiuso.\nCi scusiamo per il disagio." ID="IDC_LINE_1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::We have created an error report that you can send to us. We will treat this report as confidential" Localized="DIALOG::Segnalazione di errori alla McNeel::Abbiamo creato una segnalazione di errori che potete inviarci. Tratteremo questa segnalazione con la massima confidenzialità" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Our developers frequently need additional information to fix errors. Please provide your e-mail address so we can contact you. All information below is optional." Localized="DIALOG::Segnalazione di errori alla McNeel::I nostri sviluppatori spesso hanno bisogno di ulteriori informazioni per risolvere gli errori riportati. Forniteci il vostro indirizzo e-mail, così potremo metterci in contatto con voi. Tutte le informazioni qui sotto sono opzionali." ID="IDC_STATIC" IDN="102" />
+    </DIALOG>
+    <STRINGTABLE>
+      <RHINOSTRING_STATUSBAR_MESSAGE English="&amp;About RmaErrorReporting..." Localized="&amp;Info SegnalazioneErroriRma..." ID="IDS_ABOUTBOX" />
+    </STRINGTABLE>
+  </RESOURCE_FILE>
+</RHINO_LOCALIZATION>

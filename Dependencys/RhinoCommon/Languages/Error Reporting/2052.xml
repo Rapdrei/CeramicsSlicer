@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RHINO_LOCALIZATION Version="4.2.0">
+  <SETTINGS>
+    <OPTIONS AcceleratorStyle="Parenthesis" LanguageScript="RHINO3_LANGUAGE_SCRIPT" />
+  </SETTINGS>
+  <RESOURCE_FILE Filename="$/src4/RmaErrorReporting/RmaErrorReporting.rc">
+    <DIALOG English="About Error Reporting" Localized="关于错误回报" ID="IDD_ABOUTBOX" IDN="100">
+      <DEFPUSHBUTTON English="DIALOG::About Error Reporting::Close" Localized="DIALOG::About Error Reporting::关闭" ID="IDOK" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::At a minimum, error reports contain information that helps us isolate what was happening when Rhino closed. This information is anonymous and does not contain any personally identifyable information." Localized="DIALOG::About Error Reporting::您的错误回报可以提供我们分析 Rhino 为什么发生错误的原因，此错误回报是以匿名传送，不包含任何可以识别身份的资讯。" ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Also, you can choose to send the Rhino model that you were working on when Rhino closed. This sometimes contains valuable information that helps us reproduce the problem." Localized="DIALOG::About Error Reporting::您也可选择传送 Rhino 发生错误时您正在制作的模型，或许我们可以从中找出 Rhino 发生错误的原因。" ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Optionally, you can provide us with your name, e-mail and a description of what you were doing when Rhino closed. This information will be treated as confidential." Localized="DIALOG::About Error Reporting::如果您愿意，也可以提供我们您的姓名、电子邮件地址及说明 Rhino 发生错误时您做了什么，我们会保密您所提供的任何资讯。" ID="IDC_STATIC" IDN="100" />
+    </DIALOG>
+    <DIALOG English="McNeel Error Reporting" Localized="关于 McNeel 错误回报" ID="IDD_RMAERRORREPORTING_DIALOG" IDN="102">
+      <LTEXT English="DIALOG::McNeel Error Reporting::Please tell McNeel about this problem." Localized="DIALOG::McNeel Error Reporting::请向 McNeel 回报这个问题。" ID="IDC_TITLE_TEXT" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Name:" Localized="DIALOG::McNeel Error Reporting::名称:" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::e-mail:" Localized="DIALOG::McNeel Error Reporting::电子邮件:" ID="IDC_STATIC" IDN="102" />
+      <CONTROL English="DIALOG::McNeel Error Reporting::Send Rhino 3DM file with error report" Localized="DIALOG::McNeel Error Reporting::将 Rhino 的 3DM 文件与错误回报一起传送" ID="IDC_CHECK_INCLUDE_3DM" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::What were you doing when Rhino closed?" Localized="DIALOG::McNeel Error Reporting::Rhino 发生错误时您做了什么?" ID="IDC_STATIC" IDN="102" />
+      <DEFPUSHBUTTON English="DIALOG::McNeel Error Reporting::Send Error Report" Localized="DIALOG::McNeel Error Reporting::送出错误回报" ID="IDOK" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Don't Send" Localized="DIALOG::McNeel Error Reporting::不送出" ID="IDCANCEL" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Help" Localized="DIALOG::McNeel Error Reporting::说明" ID="IDC_BUTTON1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Rhino has encountered a problem and needs to close.\nWe are sorry for the inconvenience." Localized="DIALOG::McNeel Error Reporting::Rhino 发生错误，必须关闭，\n对您造成不便，谨此致歉。" ID="IDC_LINE_1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::We have created an error report that you can send to us. We will treat this report as confidential" Localized="DIALOG::McNeel Error Reporting::我们会记录您回报的错误，并将您回报的资讯视为机密。" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Our developers frequently need additional information to fix errors. Please provide your e-mail address so we can contact you. All information below is optional." Localized="DIALOG::McNeel Error Reporting::我们的工师在修正错误时可能需要更多的资讯，请提供您的电子邮件地址，让我们可以与您联系，其它栏位可以选填。" ID="IDC_STATIC" IDN="102" />
+    </DIALOG>
+    <STRINGTABLE>
+      <RHINOSTRING_STATUSBAR_MESSAGE English="&amp;About RmaErrorReporting..." Localized="关于 RMA 错误回报 (&amp;A)..." ID="IDS_ABOUTBOX" />
+    </STRINGTABLE>
+  </RESOURCE_FILE>
+</RHINO_LOCALIZATION>

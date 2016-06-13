@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RHINO_LOCALIZATION Version="4.2.0">
+  <SETTINGS>
+    <OPTIONS AcceleratorStyle="RHINO3_COMMANDLINE_ACCELERATOR_STYLE" LanguageScript="RHINO3_LANGUAGE_SCRIPT" />
+  </SETTINGS>
+  <RESOURCE_FILE Filename="$/src4/RmaErrorReporting/RmaErrorReporting.rc">
+    <DIALOG English="About Error Reporting" Localized="ｴﾗｰの報告について" ID="IDD_ABOUTBOX" IDN="100">
+      <DEFPUSHBUTTON English="DIALOG::About Error Reporting::Close" Localized="DIALOG::ｴﾗｰの報告について::閉じる" ID="IDOK" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::At a minimum, error reports contain information that helps us isolate what was happening when Rhino closed. This information is anonymous and does not contain any personally identifyable information." Localized="DIALOG::ｴﾗｰの報告について::ｴﾗｰの報告には、Rhinoが閉じた際に何が起こっていたのかの最小情報が含まれます。 この情報には、お客様の名前や個人情報は一切含まれません。" ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Also, you can choose to send the Rhino model that you were working on when Rhino closed. This sometimes contains valuable information that helps us reproduce the problem." Localized="DIALOG::ｴﾗｰの報告について::ｴﾗｰの報告には、Rhinoが閉じた際に作業をしていたRhinoのﾓﾃﾞﾙを送って頂くｵﾌﾟｼｮﾝがあります。 ﾓﾃﾞﾙを送って頂くと、問題を再度発生できる可能性があるので、大変役に立ちます。" ID="IDC_STATIC" IDN="100" />
+      <LTEXT English="DIALOG::About Error Reporting::Optionally, you can provide us with your name, e-mail and a description of what you were doing when Rhino closed. This information will be treated as confidential." Localized="DIALOG::ｴﾗｰの報告について::お名前、ﾒｰﾙｱﾄﾞﾚｽ、Rhinoが閉じた際にどのような操作をされていたのかをｵﾌﾟｼｮﾝで記入して頂くこともできます。 これらの情報は極秘情報として扱われます。" ID="IDC_STATIC" IDN="100" />
+    </DIALOG>
+    <DIALOG English="McNeel Error Reporting" Localized="McNeel ｴﾗｰの報告" ID="IDD_RMAERRORREPORTING_DIALOG" IDN="102">
+      <LTEXT English="DIALOG::McNeel Error Reporting::Please tell McNeel about this problem." Localized="DIALOG::McNeel ｴﾗｰの報告::この問題についてMcNeelにどうぞご連絡ください。" ID="IDC_TITLE_TEXT" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Name:" Localized="DIALOG::McNeel ｴﾗｰの報告::名前:" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::e-mail:" Localized="DIALOG::McNeel ｴﾗｰの報告::ﾒｰﾙｱﾄﾞﾚｽ:" ID="IDC_STATIC" IDN="102" />
+      <CONTROL English="DIALOG::McNeel Error Reporting::Send Rhino 3DM file with error report" Localized="DIALOG::McNeel ｴﾗｰの報告::ｴﾗｰの報告と一緒にRhinoの3DMﾌｧｲﾙを送る" ID="IDC_CHECK_INCLUDE_3DM" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::What were you doing when Rhino closed?" Localized="DIALOG::McNeel ｴﾗｰの報告::Rhinoが閉じたときに行なっていた操作をご記入ください。" ID="IDC_STATIC" IDN="102" />
+      <DEFPUSHBUTTON English="DIALOG::McNeel Error Reporting::Send Error Report" Localized="DIALOG::McNeel ｴﾗｰの報告::ｴﾗｰの報告を送信" ID="IDOK" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Don't Send" Localized="DIALOG::McNeel ｴﾗｰの報告::送信しない" ID="IDCANCEL" IDN="102" />
+      <PUSHBUTTON English="DIALOG::McNeel Error Reporting::Help" Localized="DIALOG::McNeel ｴﾗｰの報告::ﾍﾙﾌﾟ" ID="IDC_BUTTON1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Rhino has encountered a problem and needs to close.\nWe are sorry for the inconvenience." Localized="DIALOG::McNeel ｴﾗｰの報告::問題が発生したため、を終了します。\nご不便をおかけして申し訳ございません。" ID="IDC_LINE_1" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::We have created an error report that you can send to us. We will treat this report as confidential" Localized="DIALOG::McNeel ｴﾗｰの報告::「ｴﾗｰの報告」が作成されました。「ｴﾗｰの報告を送信」ﾎﾞﾀﾝをｸﾘｯｸして頂くと送信されます。Rhinoの向上のため、ぜひご協力をお願いします。 この情報は極秘情報として扱われます。" ID="IDC_STATIC" IDN="102" />
+      <LTEXT English="DIALOG::McNeel Error Reporting::Our developers frequently need additional information to fix errors. Please provide your e-mail address so we can contact you. All information below is optional." Localized="DIALOG::McNeel ｴﾗｰの報告::なるべく多くの情報を提供して頂くとｴﾗｰの修正が正しく行えます。 ｴﾗｰについて質問させて頂けるように、ﾒｰﾙｱﾄﾞﾚｽのご記入をぜひお願い致します。 下のすべての情報はｵﾌﾟｼｮﾅﾙです。" ID="IDC_STATIC" IDN="102" />
+    </DIALOG>
+    <STRINGTABLE>
+      <RHINOSTRING_STATUSBAR_MESSAGE English="&amp;About RmaErrorReporting..." Localized="Rmaｴﾗｰの報告について(&amp;A)..." ID="IDS_ABOUTBOX" />
+    </STRINGTABLE>
+  </RESOURCE_FILE>
+</RHINO_LOCALIZATION>
